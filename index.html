@@ -1,0 +1,41 @@
+<!doctype html><html lang='pt-BR'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Portal FETARC</title><link rel='stylesheet' href='css/style.css'></head><body>
+<header><div class='logos'><img src='https://raw.githubusercontent.com/NossoEventoRS/Imagens/refs/heads/main/Logos_apoiadores.png'></div></header>
+<section class='carousel'><div class='slide active'><img src='https://raw.githubusercontent.com/NossoEventoRS/Imagens/refs/heads/main/Banner1_CH.png'></div><div class='slide'><img src='https://raw.githubusercontent.com/NossoEventoRS/Imagens/refs/heads/main/Banner2_CH.png'></div></section>
+<main>
+
+<div class='xiru'>
+            <h2>Inscrições:</h2>
+<a class='btn red' href='file:///C:/Users/Marcio%20da%20Silva/Documents/Nosso%20EventoRS/Eventos/Rodeio%20Amaranto%20Pereira%2023-23%20de%2008-26/Site%20inscri%C3%A7%C3%A3o/Grupo.html'>Danças Tradicionais | GRUPO</a>
+<a class='btn green' href='file:///C:/Users/Marcio%20da%20Silva/Documents/Nosso%20EventoRS/Eventos/Rodeio%20Amaranto%20Pereira%2023-23%20de%2008-26/Site%20inscri%C3%A7%C3%A3o/Individual.html'>Modalidades Individuais</a>
+
+</div>
+
+<div class='xiru'>
+            <h2>Informações:</h2>
+            <a class='wa' href='https://wa.me/5551' target="_blank">WhatsApp (51) 9999999</a>
+        </div>
+
+<a class='btn regulamento' href=''>REGULAMENTO COMPLETO</a>
+
+
+
+</main>
+
+    <footer>
+        Sistema de Inscrição - NossoEventoRS © 2026 | dúvidas: contato@nossoevento.com.br
+    </footer>
+
+    <script>
+        let i = 0;
+        const s = document.querySelectorAll('.slide');
+        
+        setInterval(() => {
+            if (s.length > 0) {
+                s[i].classList.remove('active');
+                i = (i + 1) % s.length;
+                s[i].classList.add('active');
+            }
+        }, 5000);
+    </script>
+</body>
+</html>
